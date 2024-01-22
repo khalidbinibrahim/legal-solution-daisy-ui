@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
+    <link rel="shortcut icon" href="images/business.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/87c8cc33d2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -312,10 +314,11 @@
         <section>
             <div class="text-center">
                 <h2 class="font-extrabold font-garamond text-4xl text-[#414040] mb-6">Contact With Us</h2>
-                <p class="font-poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered
+                <p class="font-poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available,
+                    but the majority have <br> suffered
                     alteration in some form, by injected humour.</p>
             </div>
-            <div class="flex justify-between items-center mx-8 lg:mx-16 my-24">
+            <div class="flex flex-col lg:flex-row justify-between items-center mx-8 lg:mx-16 my-24">
                 <div class="grid gap-4 grid-cols-1 lg:grid-cols-2">
                     <!-- first card -->
                     <div class="card w-72 bg-[#F3F3F3]">
@@ -365,13 +368,13 @@
                 </div>
                 <div>
                     <form class="w-full lg:w-[570px] flex flex-col gap-6">
-                        <input class="grow px-8 py-6 border-0 bg-[#F3F3F3] font-poppins text-[#707070]" type="text"
+                        <input class="grow px-8 py-6 border-0 rounded-lg bg-[#F3F3F3] font-poppins text-[#707070]" type="text"
                             placeholder="Your Name">
-                        <input class="grow px-8 py-6 border-0 bg-[#F3F3F3] font-poppins text-[#707070]" type="email"
+                        <input class="grow px-8 py-6 border-0 rounded-lg bg-[#F3F3F3] font-poppins text-[#707070]" type="email"
                             placeholder="Your Email" name="" id="">
-                        <input class="grow px-8 py-6 border-0 bg-[#F3F3F3] font-poppins text-[#707070]" type="text"
+                        <input class="grow px-8 py-6 border-0 rounded-lg bg-[#F3F3F3] font-poppins text-[#707070]" type="text"
                             placeholder="Subject" name="" id="">
-                        <input class="grow px-8 py-6 border-0 bg-[#F3F3F3] font-poppins text-[#707070]" type="text"
+                        <input class="grow px-8 py-6 border-0 rounded-lg bg-[#F3F3F3] font-poppins text-[#707070]" type="text"
                             placeholder="Your Message">
                         <input
                             class="grow px-8 py-6 bg-[#B68C5A] border-0 btn text-white py-4 px-9 rounded-lg font-semibold font-poppins"
@@ -382,8 +385,43 @@
         </section>
     </main>
 
-    <footer>
-
+    <!-- footer -->
+    <footer class="flex bg-[#111] p-10 lg:px-24 py-10">
+        <div class="flex flex-col lg:flex-row mx-auto gap-24">
+            <nav class="flex flex-col">
+                <img class="w-52 mb-8" src="images/logo.png" alt="Justice">
+                <p class="text-[#CFCFCF] font-poppins w-64">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </nav>
+            <nav class="flex flex-col">
+                <header class="font-garamond text-2xl font-extrabold text-white mb-8">Useful Link</header>
+                <a class="link link-hover text-[#CFCFCF] font-poppins">Home</a>
+                <a class="link link-hover text-[#CFCFCF] font-poppins">About Us</a>
+                <a class="link link-hover text-[#CFCFCF] font-poppins">Cases</a>
+                <a class="link link-hover text-[#CFCFCF] font-poppins">Blog</a>
+                <a class="link link-hover text-[#CFCFCF] font-poppins">Contact Us</a>
+            </nav>
+            <nav class="flex flex-col">
+                <header class="font-garamond text-2xl font-extrabold text-white mb-8">Contact Now</header>
+                <a class="link link-hover text-[#CFCFCF] font-poppins mb-4">555 4th 5t NW, Washington <br>
+                    DC 20530, United States</a>
+                <a class="link link-hover text-[#CFCFCF] font-poppins mb-4">+88 01750 000 000 <br>
+                    +88 01750 000 000</a>
+                <a class="link link-hover text-[#CFCFCF] font-poppins mb-4">info@gmail.com <br>
+                    info@gmail.com</a>
+            </nav>
+            <nav class="flex flex-col">
+                <header class="font-garamond text-2xl font-extrabold text-white mb-8">Subscribe</header>
+                <p class=" text-[#CFCFCF] font-poppins w-56 mb-8">Subscribe for our latest & Articles. We Won’t Give You Spam
+                    Mails</p>
+                <form class="flex">
+                    <input class="px-8 py-2 border-0 rounded-lg bg-[#F3F3F3] font-poppins text-[#707070]" type="text" placeholder="Email Address">
+                    <button class="px-6 py-4 bg-[#B68C5A] text-white btn font-semibold font-poppins text-xl">
+                        <i class="fa-solid fa-location-arrow"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
     </footer>
 </body>
 
